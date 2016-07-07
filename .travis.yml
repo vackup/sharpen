@@ -19,6 +19,6 @@ deploy:
   on:
     repo: vackup/sharpen
     all_branches: true
-    tags: true
+    tags: false
 after_success:
   - mvn install -q -Pqulice -DskipTests -DfinalName=sharpen > code_quality_report.txt || true
