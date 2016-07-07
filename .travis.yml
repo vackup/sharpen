@@ -8,7 +8,7 @@ script: mvn -DfinalName=sharpen test -q
 notifications:
   email:
     recipients:
-    - nathanael.jones@gmail.com
+    - hzaldivar79@gmail.com
     on_success: always
 deploy:
   provider: releases
