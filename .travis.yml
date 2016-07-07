@@ -17,7 +17,7 @@ deploy:
     - src/target/sharpen-jar-with-dependencies.jar
     - code_quality_report.txt
   on:
-    repo: imazen/sharpen
+    repo: vackup/sharpen
     all_branches: true
     tags: true
 after_success:
